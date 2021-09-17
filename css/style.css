@@ -1,0 +1,187 @@
+.home
+{
+    background-color: #fff;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.form-container{
+    background-color:#24353f;
+}
+
+p a:hover
+{
+    text-decoration: underline !important;
+}
+.form-container
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+input::placeholder
+{
+    color:  rgb(182, 182, 182) !important;
+}
+.navbar
+{
+    background-color: #24353f !important;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#usernameAlert, #userEmailAlert, #userPasswordAlert
+{
+    font-size: .8rem;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+*
+{
+    box-sizing: border-box;
+
+}
+
+.home
+{
+    background-color: #F6F7F9;
+    height: 100vh;
+}
+
+.btn1
+{
+    border: 1px sold white;
+    background-color:#116DFF;
+    cursor: pointer;
+    padding: 10px 50px ;
+    border-radius: 45px;
+    border: .5px solid transparent;
+    color: #FFFFFF;
+    
+}
+
+.btn1:hover
+{
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+}
+
+.font_h1
+{
+    font-size: 42px;
+    line-height: 52px;
+}
+
+.textP
+{
+    font-size: 19px;
+    color: #181818;
+}
+
+.verticalLine
+{
+   position: relative;
+}
+
+.verticalLine span
+{
+    
+position:absolute;
+top: -9%;
+left: 50%;
+width: 1px;
+height: 50%;
+background-color: #116DFF;
+
+
+}
+
+.verticalLine p
+{
+    
+position:absolute;
+top: 60%;
+left: 50%;
+width: 1px;
+height: 60%;
+background-color: #116DFF;
+}
+
+.verticalLine h4
+{
+    
+position:absolute;
+bottom: 40%;
+right: 40%;
+color: #116DFF;
+
+}
+
+/*stop*/
+.e
+{
+    height: 100vh;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs
+{
+    border: none;
+    outline: none;
+    cursor:default;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.btnP2
+{
+    border: 1px solid  #116DFF;
+    border-radius:30px;
+    padding: 10px 50px 10px 50px;
+    color: #116DFF;
+    background-color:transparent;
+}
+
+.btnP2:hover
+{
+    background-color: #116DFF;
+    color: #FFFFFF;
+}
+
+.line
+{
+    position: relative;
+}
+
+.line span
+{
+position:absolute;
+top: 5%;
+left: 50%;
+width: 1px;
+height: 100%;
+background-color: #116DFF;
+}
+
+.btnRight
+{
+   background-color: #116DFF;
+}
+
+.btnRight i
+{
+    font-size: 45px;
+    background-color: #FFFFFF;
+    /*visibility: visible;*/
+}
